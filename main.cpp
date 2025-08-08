@@ -5,23 +5,26 @@
 *                              
 ********************************************************************************************/
 #include <iostream>
+#include <cstdint>
 using namespace std;
 
-const long long INF=9223372036854775807;
+const int64_t INF{9223372036854775807};
 
-long long n;
+int64_t n;
+
+void solve()
+{
+
+}
 
 int main()
 {
     //ios::sync_with_stdio(false);
     //cin.tie(0);
-
-    while(cin >> n)
+    cin >> n;
+    while(n--)
     {
-        for(int i=0;i<n;i++)
-        {
-            
-        }
+        solve();
     }
 
     return 0;

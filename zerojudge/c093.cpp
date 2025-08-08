@@ -5,13 +5,16 @@
  *
  ********************************************************************************************/
 #include <iostream>
+#include <cstdint>
 using namespace std;
 
-const long long INF = 9223372036854775807;
+const int64_t INF{9223372036854775807};
 
-long long n;
+int64_t n;
 
-void solve()
+int a[12];
+
+bool check()
 {
 }
 
@@ -22,7 +25,15 @@ int main()
     cin >> n;
     while (n--)
     {
-        solve();
+        for (int i = 0; i < 12; i++)
+            a[i] = 0;
+        for (int i = 0; i < 12; i++)
+        {
+            if (check())
+            {
+            }
+        }
+
     }
 
     return 0;
